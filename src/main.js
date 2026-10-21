@@ -4,7 +4,7 @@ const container = document.querySelector('#events');
 events.forEach((event, index) => {
   const button = document.createElement('button');
   button.className = 'event';
-  button.innerHTML = `<span class="event-number">0${index + 1}</span><span class="event-name"><small>${event.format} · Example</small><strong>${event.title}</strong></span><span class="event-summary">${event.summary}</span><span class="event-arrow" aria-hidden="true">↗</span>`;
+  button.innerHTML = `<span class="event-number">0${index + 1}</span><span class="event-name"><small>${event.format} · Example</small><strong>${event.title}</strong></span><span class="event-summary">${event.summary}</span><span class="event-arrow" aria-hidden="true"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span>`;
   button.addEventListener('click', () => {
     document.querySelector('#dialog-title').textContent = event.title;
     document.querySelector('#dialog-description').textContent = event.description;
