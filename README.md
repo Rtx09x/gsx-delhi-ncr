@@ -50,3 +50,9 @@ Normal scrolling, visible content on first render, system fonts, reserved artwor
 ## License
 
 Original code: MIT. Official branding is excluded: see [BRANDING.md](BRANDING.md).
+
+## Interactive prototype features
+
+The expanded community concept includes four filterable sample sessions (AI, science, open source, community), detailed session dialogs, learner/builder/mentor/proposal participation paths with arrow-key tab navigation, and an interactive synthetic signal/noise illustration. All proposed activities are clearly marked; there is no event booking or application backend.
+
+The lab generates deterministic synthetic observations in the browser. Its slider and resample button are learning interactions, not scientific inference or analysis. The reference line is known by construction. Role contribution areas are illustrative and do not announce recruitment or appointments.
